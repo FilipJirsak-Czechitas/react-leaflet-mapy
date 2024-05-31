@@ -22,13 +22,13 @@ Nastavit výšku kontejneru s mapou, např. `leaflet-container`:
 Případně nastavit výšku přímo pomocí stylu nebo jiné třídy na komponentě `<MapContainer />`.
 
 ## Použití
-Použití v kódu viz soubor `/src/pages/HomePage/index.jsx` v tomto projektu.
+Použití v kódu vizte soubor [`/src/pages/HomePage/index.jsx`](https://github.com/FilipJirsak-Czechitas/react-leaflet-mapy/blob/main/src/pages/HomePage/index.jsx) v tomto projektu.
 
 1. Zaregistrovat se na https://developer.mapy.cz a získat API klíč.
-1. Vložit mapu do stránky pomocí komponenty `<MapContainer />`.
+1. Vložit mapu do stránky pomocí komponenty [`<MapContainer />`](https://github.com/FilipJirsak-Czechitas/react-leaflet-mapy/blob/f5660e7e476c1e16a167e9207b0bda8c0d62793b/src/pages/HomePage/index.jsx#L39-L55).
 1. Nastavit správné [atributování](https://developer.mapy.cz/rest-api/atributovani/) (uvedení copyrightu).
-    1. Uvedení textu s copyrightem, viz atribut `attribution` komponenty `<TileLayer />`.
-    1. Uvedení loga Mapy.cz, viz komponenta `<LogoControl />` (můžete ji zkopírovat do svého projektu).
+    1. Uvedení textu s copyrightem, viz atribut [`attribution`](https://github.com/FilipJirsak-Czechitas/react-leaflet-mapy/blob/f5660e7e476c1e16a167e9207b0bda8c0d62793b/src/pages/HomePage/index.jsx#L43) komponenty `<TileLayer />`.
+    1. Uvedení loga Mapy.cz, viz komponenta [`<LogoControl />`](https://github.com/FilipJirsak-Czechitas/react-leaflet-mapy/blob/f5660e7e476c1e16a167e9207b0bda8c0d62793b/src/pages/HomePage/index.jsx#L17-L28) (můžete ji zkopírovat do svého projektu).
 
 ## Dokumentace
 * [React Leaflet](https://react-leaflet.js.org/)
