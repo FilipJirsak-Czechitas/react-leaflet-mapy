@@ -1,6 +1,8 @@
 # Mapy.cz s React Leafler
 
-## Instalace
+Projekt vychází z klasického `npm init kodim-app@latest muj-projekt react`.
+
+## Instalace knihoven
 
 ```shell
 npm install leaflet react-leaflet
