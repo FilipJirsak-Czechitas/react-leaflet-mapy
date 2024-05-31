@@ -21,6 +21,8 @@ Nastavit výšku kontejneru s mapou, např. `leaflet-container`:
 
 Případně nastavit výšku přímo pomocí stylu nebo jiné třídy na komponentě `<MapContainer />`.
 
+Pokud chcete používat standardní marker s Leaflet a standardní tlačítko pro přepínání mapových vrstev, zkopírujte obsah adresáře `/node_modules/leaflet/dist/images` do adresáře `/public`. (Tohle by normálně nemělo být potřeba, ale knihovna Leaflet není přizpůsobená pro moderní JavaScript, kde se používají importy.)
+
 ## Použití
 Použití v kódu vizte soubor [`/src/pages/HomePage/index.jsx`](https://github.com/FilipJirsak-Czechitas/react-leaflet-mapy/blob/main/src/pages/HomePage/index.jsx) v tomto projektu.
 
