@@ -1,6 +1,6 @@
 # Mapy.cz s React Leafler
 
-# #Instalace
+## Instalace
 
 ```shell
 npm install leaflet react-leaflet
